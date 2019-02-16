@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    background: grey;
+    padding: 20px;
+}
