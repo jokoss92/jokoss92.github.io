@@ -1,11 +1,14 @@
 body {
     padding: 0;
     margin: 0;
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GfRLKaE/videoblocks-digital-technology-background-pack_rxoqytdfm_thumbnail-full09.png");
+}
+.picture{
+    margin-top: 20px;
+  text-align: center;
 }
 .avatar{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 100%;
 }
 
 .text{
@@ -15,3 +18,17 @@ body {
     background: grey;
     padding: 20px;
 }
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quote{
+    font-style: italic;
+}
+
+.quote:hover {
+    font-size: 20px;
+}
+  

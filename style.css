@@ -1,11 +1,12 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #header{
     background: maroon;
     color: white;
-    padding: 20pt;
+    padding: 20px;
 }
 strong {
     color: aquamarine;
@@ -13,7 +14,7 @@ strong {
 }
 
 #products{
-    padding: 50pt;
+    padding: 50px;
 }
 
 .item{
@@ -21,16 +22,24 @@ strong {
     display: inline-block;
     width: 200px;
     height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: maroon;
     
 }
 
 .item:hover{
-    color: blue;
-    font-size: 25px;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 footer{
     background: black;
     color: white;
-
+    padding: 50px 20px 50px 20px;
 }
+
+img {
+    width: 100%;
+  }
