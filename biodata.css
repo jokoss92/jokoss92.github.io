@@ -20,15 +20,11 @@ body {
 }
 
 .name{
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
 }
 
-.quote{
-    font-style: italic;
-}
-
-.quote:hover {
-    font-size: 20px;
+.name:hover {
+    font-size: 50px;
 }
   
