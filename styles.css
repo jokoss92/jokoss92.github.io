@@ -1,0 +1,187 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://nanoni.at/wp-content/uploads/2016/05/IT-nanoni-Korab-Thaci-1.jpg");
+    background-size: cover;
+}
+.picture{
+    margin-top: 20px;
+  text-align: center;
+}
+.avatar{
+    border-radius: 100%;
+}
+
+.text{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    background: grey;
+    padding: 20px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.name:hover {
+    font-size: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  section.main {
+    position: relative;
+    top: 65px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 7rem 5rem;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 90%, 0% 100%);
+  }
+  
+  .mb3 {
+    color: aliceblue;
+    margin-bottom: 1rem;
+  }
+  
+  .box1 {
+    flex: 1;
+  }
+  
+  .box2 {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .main h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  button.my-button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background: rgb(255, 218, 95);
+    cursor: pointer;
+  }
+  
+  section .solutions {
+    margin: 12px 36px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+  
+  section .solutions h1 {
+    text-align: center;
+    margin: 24px 12px;
+  }
+  
+  section .solutions ul li {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  
+  section .solutions img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    width: 20rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin: 24px 12px;
+    font-size: 3rem;
+  }
+  
+  .m-auto {
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .tc {
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .mt3 {
+    margin-top: 1rem;
+  }
+  
+  .mt5 {
+    margin-top: 4rem;
+  }
+  
+  .h5 {
+    height: 25rem;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* .container {
+    max-width: 760px;
+  } */
+  
+  .my-hr {
+    border: 1px solid salmon;
+    width: 100px;
+  }
+  
+  .my-table {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .my-table td,
+  .my-table th {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .my-table tr {
+    cursor: pointer;
+  }
+  
+  .my-table tr:nth-child(4) {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .my-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .my-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: salmon;
+    color: white;
+  }
+  
+  

@@ -1,23 +1,53 @@
-<!doctype html>
 <html>
-<head>
-<title>Coming Soon</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
-</head>
-<body>
-<article>
-    <h1>Coming Soon</h1>
-    <div>
-        <p>I know maybe it's taking a long time but hang in there. If you need, you can always <a href="mailto:joko.sarjono.s92@gmail.com">contact me</a>, otherwise I&rsquo;ll be back online (but maybe not) shortly!</p>
-        <p><a href="index.html">&mdash; Your Friendly Friend</a></p>
-    </div>
-</article>
-</body>
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="navbar.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </header>
+    <section class="main">
+      <div class="box1">
+        <!-- <h1 class="mb3">MY PORTOFOLIO</h1> -->
+        <h3 class="mb3">“LEARNING IS NOT ATTAINED BY CHANCE, IT MUST BE SOUGHT FOR WITH ARDOR AND ATTENDED TO WITH DILIGENCE.” ―ABIGAIL ADAMS</h3>
+      </div>
+    </section>
+    <section class="solutions-container mt5">
+      <h1 class="tc section-title">My Portfolio</h1>
+      <hr class="my-hr m-auto" />
+      <div class="solutions">
+        <div class="m-auto h5 flex-container">
+          <img src="img/workshop-devc.jpg"/>
+          <h1>Learned from DevC Workshop</h1>
+          <button class="mt3 my-button"><a href="https://workshop-devc-jakarta.netlify.app/">Get Started</a></button>
+        </div>
+        <div class="m-auto h5 flex-container">
+          <img src="img/kasir.jpg"/>
+          <h1>Aplikasi Kasir Sederhana</h1>
+          <button class="mt3 my-button"><a href="https://aplikasi-kasir2-joko.netlify.app/">Get Started</a></button>
+        </div>
+        <div class="m-auto h5 flex-container">
+          <img src="img/profile.jpg"/>
+          <h1>Contoh Profile Website</h1>
+          <button class="mt3 my-button"><a href="https://tugas-kelompok-7.netlify.app/">Get Started</a></button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
